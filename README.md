@@ -25,9 +25,12 @@ I am a cybersecurity engineer and Computer Science student at the University of 
 
 | Project | Domain | Key Architecture & Capabilities |
 | :--- | :--- | :--- |
-| **[Aegis-SOAR](https://github.com/Unskilled0ne/aegis-soar)** | **SecOps & IR** | Production-ready incident response orchestration DAG engine. Integrates Wazuh SIEM alerts, automated multi-engine threat intel lookups (VirusTotal/AbuseIPDB), human approval gates, and zero-touch `iptables` perimeter containment. |
-| **[CloudPath](https://github.com/Unskilled0ne/cloudpath)** | **Cloud Security** | Graph-based AWS IAM privilege escalation auditor using **NetworkX**. Evaluates multi-hop `AssumeRole` chains, `PassRole` compute abuses, and identity hygiene flaws (stale keys, missing MFA) without requiring live AWS credentials. |
-| **[LLM Red-Team Suite](https://github.com/Unskilled0ne/llm-redteam-suite)** | **AI / AppSec** | Automated red-teaming framework benchmarking LLM agents against the **OWASP LLM Top 10**. Features a 6-vector adversarial fuzzer and multi-layered defensive guardrails (input unicode normalization, RBAC tool gating, and canary leak scanners). |
+| **[Aegis-SOAR](https://github.com/Unskilled0ne/aegis-soar)** | **SecOps & IR** | Production-ready incident response orchestration DAG engine. Integrates Wazuh SIEM alerts, automated threat intel lookups (VirusTotal/AbuseIPDB), human approval gates, and zero-touch `iptables` perimeter containment. |
+| **[CloudPath](https://github.com/Unskilled0ne/cloudpath)** | **Cloud Security** | Graph-based AWS IAM privilege escalation auditor using **NetworkX**. Evaluates multi-hop `AssumeRole` chains, `PassRole` compute abuses, and identity hygiene flaws without requiring live cloud credentials. |
+| **[Agent Breaker](https://github.com/Unskilled0ne/agent-breaker)** | **Agentic AI Red-Team** | Autonomous AI agent exploitation harness benchmarking tool-use hijacking, indirect injection (inbox/web carriers), MCP tool description poisoning, and confused deputy escalation. |
+| **[LLM Red-Team Suite](https://github.com/Unskilled0ne/llm-redteam-suite)** | **AI / AppSec** | Automated red-teaming framework benchmarking LLMs against the **OWASP LLM Top 10**. Features a 6-vector adversarial fuzzer and multi-layered defensive guardrails (unicode normalization, RBAC tool gating, canary scanners). |
+| **[ShadowPot](https://github.com/Unskilled0ne/shadowpot)** | **Deception & SIEM** | High-interaction SSH honeypot and malware trap with real-time payload quarantine, live telemetry dashboard, and Wazuh SIEM rule decoders. |
+| **[NIST-CSF Assessment](https://github.com/Unskilled0ne/nist-csf-assessment)** | **GRC & Governance** | Enterprise NIST Cybersecurity Framework 2.0 audit engine with maturity radar analysis, risk calculation matrix, and automated POAM report generation. |
 | **[WiFi-CTF](https://github.com/Unskilled0ne/WiFi-CTF)** | **Network & Wireless** | Self-hosted virtual WiFi pentesting lab in Docker using the Linux `mac80211_hwsim` kernel module, enabling wireless security research without specialized physical NICs. |
 
 ---
